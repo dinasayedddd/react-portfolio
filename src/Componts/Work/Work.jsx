@@ -4,14 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const images = [
-  { id: 1, category: "graphic", src: "/assets/img-1-C4nS0eD8.jpg" },
-  { id: 2, category: "graphic", src: "/assets/img-2-D-4H1m4L.jpg" },
-  { id: 3, category: "graphic", src: "/assets/img-3-pR2ZEVY9.jpg" },
-  { id: 4, category: "graphic", src: "/assets/img-4-tHccITd-.jpg" },
-  { id: 5, category: "graphic", src: "/assets/img-5-lAucr__a.jpg" },
-  { id: 6, category: "graphic", src: "/assets/img-6-DFW03AZ3.jpg" },
-  { id: 7, category: "apps", src: "/assets/img-5-lAucr__a.jpg" },
-  { id: 8, category: "apps", src: "/assets/img-6-DFW03AZ3.jpg" },
+  { id: 1, category: "graphic", src: "src/assets/img-1-C4nS0eD8.jpg" },
+  { id: 2, category: "graphic", src: "src/assets/img-2-D-4H1m4L.jpg" },
+  { id: 3, category: "graphic", src: "src/assets/img-3-pR2ZEVY9.jpg" },
+  { id: 4, category: "graphic", src: "src/assets/img-4-tHccITd-.jpg" },
+  { id: 5, category: "graphic", src: "src/assets/img-5-lAucr__a.jpg" },
+  { id: 6, category: "graphic", src: "src/assets/img-6-DFW03AZ3.jpg" },
+  { id: 7, category: "apps", src: "src/assets/img-5-lAucr__a.jpg" },
+  { id: 8, category: "apps", src: "src/assets/img-6-DFW03AZ3.jpg" },
 ];
 
 

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
 const images = [
-  "/assets/img_bg_1-PzvG2r05.jpg",
-  "/assets/img_bg_2-DzCs5o-0.jpg",
+  "src/assets/img_bg_1-PzvG2r05.jpg",
+  "src/assets/img_bg_2-DzCs5o-0.jpg",
 ];
 
 
