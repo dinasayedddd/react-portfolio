@@ -12,7 +12,6 @@ import About from './Componts/About/About'
 import Skills from './Componts/Skills/Skills'
 import Work from './Componts/Work/Work'
 import Experience from './Componts/Experience/Experience'
-// import { RouterProvider } from 'react-router-dom'
 
 function App() {
 let routes = createBrowserRouter(
@@ -34,15 +33,15 @@ let routes = createBrowserRouter(
   {
     basename: import.meta.env.DEV ? '/' : '/react-portfolio/',
   }
-);
+)
 
 
   return (
     <>
-    <RouterProvider router={routes}/>
+      <RouterProvider router={routes} />
       {/* <Sidebar /> */}
     </>
-    )
+  )
 }
 
 export default App
