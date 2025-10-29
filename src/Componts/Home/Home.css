@@ -1,0 +1,36 @@
+.content {
+  margin-left: 250px;
+  padding: 30px;
+
+  min-height: 100vh;
+  padding-top: 200px;
+  background-size: cover;
+  background-position: center;
+  animation: changeBackground 4s infinite alternate;
+  text-align: left;
+  color: #333;
+  transition: all 0.3s ease;
+}
+button {
+  background-color: transparent;
+  color: #000090;
+  border: 1px solid #000090 !important;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 50px;
+  transition: all 0.3s ease;
+
+}
+button:hover {
+  background-color: #000090;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.content-info{
+  margin-left: 50px;
+}
+
+
