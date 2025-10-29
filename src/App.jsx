@@ -15,22 +15,27 @@ import Experience from './Componts/Experience/Experience'
 // import { RouterProvider } from 'react-router-dom'
 
 function App() {
-  let routes=createBrowserRouter([
+let routes = createBrowserRouter(
+  [
     {
-      path:'/',
-      element:<MasterLayout/>,
-      errorElement:<Notfound/>,
-      children:[
-        {index:true,element:<Home/>},
-        {path:'home',element:<Home/>},
-        {path:'about',element:<About/>},
-        {path:'skills',element:<Skills/>},
-        {path:'work',element:<Work/>},
-        {path:'experience',element:<Experience/>},
+      path: '/',
+      element: <MasterLayout />,
+      errorElement: <Notfound />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: 'home', element: <Home /> },
+        { path: 'about', element: <About /> },
+        { path: 'skills', element: <Skills /> },
+        { path: 'work', element: <Work /> },
+        { path: 'experience', element: <Experience /> },
+      ],
+    },
+  ],
+  {
+    basename: import.meta.env.DEV ? '/' : '/react-portfolio/',
+  }
+);
 
-      ]
-    }
-  ])
 
   return (
     <>
