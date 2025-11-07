@@ -29,7 +29,7 @@ export default function Skills() {
               aria-valuenow="75"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            >75%</div>
           </div>
 
           <h3 className="mb-2 progressTitle">HTML5</h3>
@@ -41,7 +41,7 @@ export default function Skills() {
               aria-valuenow="85"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            >85%</div>
           </div>
 
           <h3 className="mb-2 progressTitle">WordPress</h3>
@@ -53,7 +53,7 @@ export default function Skills() {
               aria-valuenow="70"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            >70%</div>
           </div>
         </div>
 
@@ -63,11 +63,11 @@ export default function Skills() {
             <div
               className="progress-bar bg-danger"
               role="progressbar"
-              style={{ width: "60%" }}
+              style={{ width: "60%" ,}}
               aria-valuenow="60"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            >60%</div>
           </div>
 
           <h3 className="mb-2 progressTitle">CSS3</h3>
@@ -79,7 +79,7 @@ export default function Skills() {
               aria-valuenow="90"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            >90%</div>
           </div>
 
           <h3 className="mb-2 progressTitle">SEO</h3>
@@ -91,7 +91,7 @@ export default function Skills() {
               aria-valuenow="80"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            >80%</div>
           </div>
         </div>
       </div>

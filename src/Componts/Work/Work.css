@@ -36,6 +36,10 @@
 .project:hover {
   transform: scale(1.02);
 }
+.nav-item{
+    margin-left: -20px;
+}
+
 
 .overlay {
   position: absolute;

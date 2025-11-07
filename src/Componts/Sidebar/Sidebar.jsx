@@ -1,14 +1,17 @@
 import React from 'react'
 import './Sidebar.css'
-import dina1 from "../../assets/dina1.png";
-import { Link } from 'react-router-dom';
+import about1 from '../../assets/about-BgAkqdr2.jpg'
+import { Link } from 'react-router-dom'
 export default function Sidebar() {
   return (
     <>
      <div className="sidebar ">
-    <img src={dina1} alt="Your Image"/>
-    <h3>Dina Sayed</h3>
-    <p>Front-End <span>React.js</span> </p>
+    <img src={about1} alt="Your Image"/>
+    <h3>Jackson Ford</h3>
+    <p> <span> UI/UX/Designer </span> in Philippines </p>
+    
+
+
 
    
 <nav className="mt-2 w-100">

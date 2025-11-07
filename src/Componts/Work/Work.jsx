@@ -3,16 +3,24 @@ import "./Work.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-const images = [
-  { id: 1, category: "graphic", src: "src/assets/img-1-C4nS0eD8.jpg" },
-  { id: 2, category: "graphic", src: "src/assets/img-2-D-4H1m4L.jpg" },
-  { id: 3, category: "graphic", src: "src/assets/img-3-pR2ZEVY9.jpg" },
-  { id: 4, category: "graphic", src: "src/assets/img-4-tHccITd-.jpg" },
-  { id: 5, category: "graphic", src: "src/assets/img-5-lAucr__a.jpg" },
-  { id: 6, category: "graphic", src: "src/assets/img-6-DFW03AZ3.jpg" },
-  { id: 7, category: "apps", src: "src/assets/img-5-lAucr__a.jpg" },
-  { id: 8, category: "apps", src: "src/assets/img-6-DFW03AZ3.jpg" },
+import img1 from '../../assets/img-1-C4nS0eD8.jpg';
+import img2 from '../../assets/img-2-D-4H1m4L.jpg';
+import img3 from '../../assets/img-3-pR2ZEVY9.jpg';
+import img4 from '../../assets/img-4-tHccITd-.jpg';
+import img5 from '../../assets/img-5-lAucr__a.jpg';
+import img6 from '../../assets/img-6-DFW03AZ3.jpg';
+
+export const images = [
+  { id: 1, category: "graphic", src: img1 },
+  { id: 2, category: "graphic", src: img2 },
+  { id: 3, category: "graphic", src: img3 },
+  { id: 4, category: "graphic", src: img4 },
+  { id: 5, category: "graphic", src: img5 },
+  { id: 6, category: "graphic", src: img6 },
+  { id: 7, category: "apps", src: img5 },
+  { id: 8, category: "apps", src: img6 },
 ];
+ّ
 
 
 export default function Work() {

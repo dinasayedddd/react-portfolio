@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 
+import img1 from '../../assets/img_bg_1-PzvG2r05.jpg';
+import img2 from '../../assets/img_bg_2-DzCs5o-0.jpg';
+
+
 export default function Home() {
-const images = [
-  "src/assets/img_bg_1-PzvG2r05.jpg",
-  "src/assets/img_bg_2-DzCs5o-0.jpg",
-];
+  const images = [img1, img2];
+
 
 
   const [current, setCurrent] = useState(0);
